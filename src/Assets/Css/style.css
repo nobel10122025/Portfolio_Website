@@ -208,6 +208,12 @@ Navbar
   -webkit-box-align: center;
   align-items: center;
 }
+
+.nav-header span{
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  margin: 0 0.5rem 0.25rem 0.5rem;
+ }
 .nav-btn {
   background: transparent;
   border-color: transparent;

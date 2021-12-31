@@ -10,7 +10,7 @@ function NavBar() {
     <nav className="nav" id="nav">
       <div className="nav-center">
         <div className="nav-header">
-          <img src="./images/logo.svg" className="nav-logo" alt="nav logo" />
+        <span>Jaya Durga</span>
           <button className="nav-btn" id="nav-btn">
             <i className="fas fa-bars" onClick={()=>setOpen(true)}></i>
           </button>
