@@ -1,25 +1,23 @@
 import './App.css';
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import './Assets/Css/style.css'
 import About from './Component/About/About';
 import Skillsets from './Component/Skillsets/Skillsets';
-import Aims from './Component/Aims/Aims';
-import SkillLevel from './Component/SkillLevel/SkillLevel';
 import Projects from './Component/Projects/Projects';
-import TimeLine from './Component/TimeLine/TimeLine';
 import NavBar from './Component/Navbar/NavBar';
+import Contact from './Component/Contact/Contact';
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <About />
-      <Skillsets />
-      <SkillLevel />
-      <TimeLine />
-      <Aims />
-      <Projects />
-
-    </div>
+      <Routes>
+        <Route exact path="/" element={<About />} />
+        <Route path="/about" element={<Skillsets />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 

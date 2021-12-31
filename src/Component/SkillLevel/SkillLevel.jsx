@@ -12,9 +12,9 @@ function SkillLevel() {
                 <article>
                 <h3>front end</h3>
               {
-                  SkillLevelFront.map((skill)=>{
+                  SkillLevelFront.map((skill , index)=>{
                       return(
-                        <div className="skill">
+                        <div className="skill" key={index}>
                         <p>{skill[0]}</p>
                         <div className="skill-container">
                             <div className="skill-value" style={{width:skill[1]}}></div>
@@ -31,9 +31,9 @@ function SkillLevel() {
         <article>
           <h3>React Framework</h3>
         {
-            ReactSpecific.map((skill)=>{
+            ReactSpecific.map((skill , index)=>{
                 return(
-                <div className="skill">
+                <div className="skill" key={index}>
                 <p>{skill[0]}</p>
                 <div className="skill-container">
                     <div className="skill-value" style={{width:skill[1]}}></div>

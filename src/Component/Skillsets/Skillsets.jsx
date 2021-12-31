@@ -1,37 +1,40 @@
 import React from 'react'
 import { techStack } from './Skillset.data';
 import aboutImg from '../../Assets/images/about-image.svg';
-
+import SkillLevel from '../SkillLevel/SkillLevel';
+import TimeLine from '../TimeLine/TimeLine';
 function Skillsets() {
     return (
         <>
-    <section class="section about">
-      <div class="section-center about-center">
-        <article class="about-img">
+    <section className="section about">
+      <div className="section-center about-center">
+        <article className="about-img">
           <img
             src={aboutImg}
-            class="hero-photo"
+            className="hero-photo"
             alt="about img"
           />
         </article>
-        <article class="about-info">
-          <div class="section-title about-title">
+        <article className="about-info">
+          <div className="section-title about-title">
             <h2>About</h2>
-            <div class="underline"></div>
+            <div className="underline"></div>
           </div>
           <p>
-            I am fronend developer with much interest in React framework. I love to Work with JSX elements 
-            They have just made out life easier.
+            I am frontend developer with much interest in React framework. I love to Work with JSX elements 
+            They have just made our life easier.
           </p>
           <div className='tech-container'>
            {
-               techStack.map((item)=>
-               <img src={require(`../../Assets/images/tech-stack/${item}.svg`)} />)
+               techStack.map((item,index)=>
+               <img key={index} src={require(`../../Assets/images/tech-stack/${item}.svg`)} alt={item}/>)
            }
           </div>
         </article>
       </div>
     </section>
+    <TimeLine />
+    <SkillLevel />
 </>
     )
 }
