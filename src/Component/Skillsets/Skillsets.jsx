@@ -27,7 +27,7 @@ function Skillsets() {
           <div className='tech-container'>
            {
                techStack.map((item,index)=>
-               <img key={index} src={require(`../../Assets/images/tech-stack/${item}.svg`)} alt={item}/>)
+               <img key={index} src={require(`../../Assets/images/tech-stack/${item}`)} alt={item}/>)
            }
           </div>
         </article>

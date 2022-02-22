@@ -8,38 +8,53 @@ export const ProjectDataAndTypes = [
                 image:'Crwn_clothing.png',
                 liveLink:'https://crwn-clothing-e-commerce-site.herokuapp.com',
                 github:'https://github.com/nobel10122025/crown_clothing_e-commerce_site',
-                details : ['Redux- state Management','Sass - Styling','Firestore - For Backend and authentication']
+                details : ['Redux- State management','Sass - Styling','Firestore - For Backend and authentication']
             },
-                
-            {   id: 1.2,
+            {
+                id : 1.2,
+                name : 'Playing with Graphs',
+                image: 'playing_with_graph.png',
+                liveLink : 'frosty-jones-993ea3.netlify.app',
+                github : 'https://github.com/nobel10122025/Graphs_with_D3',
+                details : ['d3 & svg - drawing graph' ,'Sass - Styling' , 'API integration']
+            },    
+            {   id: 1.3,
                 name:'Countries website',
                 image:'Countries_api.png',
                 liveLink:'https://nobel10122025.github.io/Countries_website_REST_countries_api/',
                 github:'https://github.com/nobel10122025/Countries_website_REST_countries_api',
-                details : ['React Hooks - state Management' ,'Sass - Styling' , 'API integration']
+                details : ['ContextAPI - State management' ,'Sass - Styling' , 'API integration']
             },
-            {   id: 1.3,
+            {    id: 1.4,
+                name:'Pest Classification with tensorFlow',
+                image:'pest_classification.png',
+                liveLink:'https://pensive-bardeen-04f70c.netlify.app',
+                github:'https://github.com/nobel10122025/Pest__Classification_with_React_TFJS',
+                details : ['TensorFlow JavaScript - deep learning model' ,'Sass - Styling' , '']
+
+            },
+            {   id: 1.5,
                 name:'Weather-App',
                 image:'Weather_app.png',
                 liveLink:'https://nobel10122025.github.io/React-weather-app/',
                 github:'https://github.com/nobel10122025/React-weather-app',
-                details : ['React Hooks - state Management' ,'Sass - MaterialUI' , 'API integration']
+                details : ['MaterialUI - Styling' , 'API integration']
         
             },
-            {   id: 1.4,
+            {   id: 1.6,
                 name:'Photo Editor App',
                 image:'Photo_editor.png',
                 liveLink:'nervous-tesla-3e9f84.netlify.app',
                 github:'https://github.com/nobel10122025/Photo_Editor_React_JS',
-                details : ['React Hooks - state Management' ,'CSS ,MaterialUI - Styling']
+                details : ['Canvas - filters & downloading' ,'CSS ,MaterialUI - Styling']
         
             },
-            {   id: 1.5,
+            {   id: 1.7,
                 name:'Todo List App',
                 image:'Todo_list.png',
                 liveLink:'https://relaxed-goldwasser-ff8954.netlify.app/',
                 github:'https://github.com/nobel10122025/Todo_list_with_React',
-                details : ['React Hooks - state Management' ,'css - Styling' ]
+                details : ['React Hooks - State management' ,'css - Styling' ]
         
             }
         ]
