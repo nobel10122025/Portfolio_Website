@@ -1,7 +1,7 @@
 export const TimeLineData = [
     {
         year:'2018-2022 [B.Tech (CSE) at SRMIST - 9.5/10]',
-        details :'Persuing B.Tech at SRM institute of Science and Technology.I have choosed the specialisation of Big data Analytics',
+        details :'Persuing B.Tech at SRM institute of Science and Technology.I have choosen the specialisation of Big data Analytics',
         Number: '1'
     },
     {
